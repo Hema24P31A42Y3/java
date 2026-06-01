@@ -1,0 +1,12 @@
+public class functions {
+	public static void message(int a,int b)
+	{
+		int c;
+		c=a+b;
+		System.out.println("sum of " +  a + " and " + b + " is " + c);
+	}
+	public static void main(String args[])
+	{
+		message(10,5);
+	}
+}
